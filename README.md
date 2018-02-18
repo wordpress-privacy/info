@@ -1,4 +1,4 @@
-# info
+# Info
 This repository will hold the info gathered during the WordPress Core GDPR journey. It will be transferred to approriate other places when in a more finalised state.
 ## Goals
 The following goals are identified:
@@ -11,5 +11,8 @@ The following goals are identified:
    * Add notices for both registered users and commenters on what data is collected in core by default, and why.
   
 1. Create some guidelines for plugins on how to use the core tools.
-## Roadmap
-See the separate document for [the roadmap](../Roadmap.md).
+## Knowledge Base
+See the separate document for [the knowledge base](../KB.md).
+## Cookies
+See the separate document [about Cookies](../Cookies.md) created by @pento and @clickysteve.
+
