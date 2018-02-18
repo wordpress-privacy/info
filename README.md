@@ -11,8 +11,11 @@ The following goals are identified:
    * Add notices for both registered users and commenters on what data is collected in core by default, and why.
   
 1. Create some guidelines for plugins on how to use the core tools.
+## Roadmap
+The roadmap can be found in [this document](../Roadmap.md).
 ## Knowledge Base
 See the separate document for [the knowledge base](../KB.md).
 ## Cookies
 See the separate document [about Cookies](../Cookies.md) created by @pento and @clickysteve.
-
+## Synched info
+See the separate document for the [synched info](../Synched-info.md) created by @pento and @clickysteve.
