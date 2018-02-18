@@ -31,3 +31,14 @@ The following data has to be considered for anonymising, deleting, etc:
       + Your messages and chat conversations
       + Info from the About section of your Profile
       + See full list on https://www.facebook.com/help/405183566203254
+
+2. Twitter
+
+   * https://twitter.com/settings/your_twitter_data
+   * Re-enter your password
+   * Find the list of what data is kept
+   * At the bottom 'Request your data' to get it by email
+   
+3. Google
+
+   * https://takeout.google.com/settings/takeout
