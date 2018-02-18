@@ -14,7 +14,7 @@ The following goals are identified:
 ## Roadmap
 The roadmap can be found in [this document](../Roadmap.md).
 ## Knowledge Base
-See the separate document for [the knowledge base](../KB.md).
+See the separate document for [the knowledge base](../blob/master/KB.md).
 ## Cookies
 See the separate document [about Cookies](../Cookies.md) created by @pento and @clickysteve.
 ## Synched info
