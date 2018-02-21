@@ -24,7 +24,7 @@ See the separate document [about Cookies](./Cookies.md) created by @pento and @c
 ## Synched info
 See the separate document for the [synched info](./Synched-info.md) created by @pento and @clickysteve.
 ## Useful Links
-A separate document is created with [useful links](./Useful links.md).
+A separate document is created with [useful links](./Useful-links.md).
 ## Trac Tickets
-We could keep a list updated with [Trac tickets](./Trac Tickets.md).
+We could keep a list updated with [Trac tickets](./Trac-Tickets.md).
 
