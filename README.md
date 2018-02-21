@@ -10,7 +10,11 @@ The following goals are identified:
    * To show/export personal data (for transfer)
    * Add notices for both registered users and commenters on what data is collected in core by default, and why.
   
-1. Create some guidelines for plugin authors on how to use the core tools.
+1. Setup a privacy centre to hold GDPR information for site users, for site administrators, and developers.
+
+   * For site users and administrators: What is collected, how long, why, etc
+   * For developers: How to use the core tools
+   
 ## Roadmap
 The roadmap can be found in [this document](./Roadmap.md).
 ## Knowledge Base
