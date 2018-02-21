@@ -1,4 +1,4 @@
-#Knowledge Base
+# Knowledge Base
 
 ## What is personal data (@webdevlaw)
 The European data protection framework pertains to personal data. This is defined as “any information relating to an identified or identifiable natural person.” This can be one piece of information or multiple data points combined to create a record.
