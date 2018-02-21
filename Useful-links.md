@@ -4,6 +4,7 @@
 * Official Regulation in [PDF](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679&from=EN) and in [HTML](http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN).
 * WebDevLaw on [data protection (GDPR)](https://webdevlaw.uk/data-protection-gdpr/)
 * EU GDPR [Portal](https://www.eugdpr.org/)
+* [Automattic and GDPR](https://en.support.wordpress.com/automattic-gdpr/)
 
 ## Plugins and Frameworks
 * Allendav GitHub - [Privacy Policy Shortcodes](https://github.com/allendav/wp-privacy-policy-shortcodes)
