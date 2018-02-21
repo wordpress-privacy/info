@@ -27,6 +27,7 @@ The requests to see, download and delete/anonymize private data have to be with 
       
 ## Add documentation/help for site owners on how to use these tools.
 This should probably be another page under the Tools menu and contain short explanation of what privacy tools are available and how to use them. It could also contain the actual tools, for example an input field for anonymizing commenters by email address.
+
 There are a few things that need clarification:
 
    * IP addresses may be considered personal data so they need to be deleted or anonymized. However do they need to be sent to the user when requesting to see or download their personal data? They are essentially third-party tokens used temporarily to access the Internet and the users have no control over them. Do other websites make them available?
