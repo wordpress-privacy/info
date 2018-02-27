@@ -19,3 +19,4 @@
 * [https://digitalcontentnext.org/blog/2017/06/23/eus-general-data-protection-regulation-means-website-compliance/](https://digitalcontentnext.org/blog/2017/06/23/eus-general-data-protection-regulation-means-website-compliance/)
 * [http://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018](http://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018)
 * [https://ico.org.uk/media/for-organisations/documents/1624219/preparing-for-the-gdpr-12-steps.pdf](https://ico.org.uk/media/for-organisations/documents/1624219/preparing-for-the-gdpr-12-steps.pdf)
+* [https://www.smashingmagazine.com/2018/02/gdpr-for-web-developers/](https://www.smashingmagazine.com/2018/02/gdpr-for-web-developers/)
