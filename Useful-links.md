@@ -1,10 +1,11 @@
 # Useful Links concerning GDPR
 
 ## Global infomation
-* Official Regulation in [PDF](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679&from=EN) and in [HTML](http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN).
+* Official Regulation in [PDF](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679&from=EN) and in [HTML](http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN)
 * WebDevLaw on [data protection (GDPR)](https://webdevlaw.uk/data-protection-gdpr/)
 * EU GDPR [Portal](https://www.eugdpr.org/)
 * [Automattic and GDPR](https://en.support.wordpress.com/automattic-gdpr/)
+* [GDPR factsheet](http://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=614208) for Asia Pacific Privacy Authorities to understand the basic requirements included in the EU GDPR
 
 ## Plugins and Frameworks
 * Allendav GitHub - [Privacy Policy Shortcodes](https://github.com/allendav/wp-privacy-policy-shortcodes)
@@ -20,3 +21,4 @@
 * [http://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018](http://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018)
 * [https://ico.org.uk/media/for-organisations/documents/1624219/preparing-for-the-gdpr-12-steps.pdf](https://ico.org.uk/media/for-organisations/documents/1624219/preparing-for-the-gdpr-12-steps.pdf)
 * [https://www.smashingmagazine.com/2018/02/gdpr-for-web-developers/](https://www.smashingmagazine.com/2018/02/gdpr-for-web-developers/)
+* [GDPR and e-Privacy](http://privacylawblog.fieldfisher.com/2018/gdpr-plus-e-privacy/) as playmates
