@@ -61,6 +61,7 @@ The following data has to be considered for anonymising, deleting, etc:
       + Your messages and chat conversations
       + Info from the About section of your Profile
       + See full list on https://www.facebook.com/help/405183566203254
+   * Check also facebook ads: https://www.facebook.com/ads/preferences/
 
 2. Twitter
 
