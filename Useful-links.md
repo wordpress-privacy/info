@@ -22,5 +22,5 @@
 * [https://ico.org.uk/media/for-organisations/documents/1624219/preparing-for-the-gdpr-12-steps.pdf](https://ico.org.uk/media/for-organisations/documents/1624219/preparing-for-the-gdpr-12-steps.pdf)
 * [https://www.smashingmagazine.com/2018/02/gdpr-for-web-developers/](https://www.smashingmagazine.com/2018/02/gdpr-for-web-developers/)
 * [GDPR and e-Privacy](http://privacylawblog.fieldfisher.com/2018/gdpr-plus-e-privacy/) as playmates
-* [Privacy policy](https://ico.org.uk/for-organisations/guide-to-data-protection/privacy-notices-transparency-and-control/where-should-you-deliver-privacy-information-to-individuals/) example from UK and also from [a site in Australia](https://www.sbs.com.au/privacy-policy)
+* Privacy policy example [from UK](https://ico.org.uk/for-organisations/guide-to-data-protection/privacy-notices-transparency-and-control/where-should-you-deliver-privacy-information-to-individuals/) and also from [a site in Australia](https://www.sbs.com.au/privacy-policy)
 * [https://pagely.com/blog/gdpr-wordpress-2018-resources/](https://pagely.com/blog/gdpr-wordpress-2018-resources/)
