@@ -12,6 +12,7 @@
 * [#43442](https://core.trac.wordpress.org/ticket/43442) - Add tools for anonymizing of commenters
 * [#43443](https://core.trac.wordpress.org/ticket/43443) - Add a method for confirmation of requests for deleting or anonymizing of personal data
 * [#43481](https://core.trac.wordpress.org/ticket/43481) - Privacy policy tools - Admin page UI
+* [#43492](https://core.trac.wordpress.org/ticket/43492) - Core Telemetry and Updates
 
 ## Other privacy issues, not tagged GDPR
 
