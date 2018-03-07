@@ -19,3 +19,8 @@
 ## Other (from major plugins)
 * [Buddypress #408](https://buddypress.trac.wordpress.org/ticket/408) - User Activity Import/Export Function
 * [Buddypress #7698](https://buddypress.trac.wordpress.org/ticket/7698) - GDPR
+* [WooCommerce #19284](https://github.com/woocommerce/woocommerce/issues/19284) - GDPR: Usage tracking opt-in
+* [WooCommerce #19278](https://github.com/woocommerce/woocommerce/issues/19278) - GDPR: Add support for personal data removal for a given email address
+* [WooCommerce #19277](https://github.com/woocommerce/woocommerce/issues/19277) - GDPR: Add support for personal data export for a given email address
+
+
