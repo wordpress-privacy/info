@@ -10,19 +10,23 @@ This site will also host resources and tools, or link to them elsewhere. Exact a
 
 * Information for users
  + Your individual rights
- +
+ + 
  +
  +
 * Information for site administrators
  + Privacy notices: what information is required for your site users
- +
- +
- +
+ + Analytics and tracking (best practices)
+ + Site security (best practices)
+ + Your users rights, how to honor them (data deletion, access requests)
+ + Cookies
+ + Your web host and privacy
+ 
+ 
 * Information for developers
  + Developer guidelines
  + Conducting a Privacy Impact Assessment
  + Privacy notices: what info is required about your plugin/theme
- +
+ 
 
 ##Glossary
 
