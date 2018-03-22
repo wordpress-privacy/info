@@ -12,6 +12,8 @@
 * bjornjohansen Gdoc [GDPR Compliance in WordPress](https://docs.google.com/document/d/1xobfogTbr80kmYkvW1RcNsmkytTRkKQi20HxFZ8hr8I/edit#)
 * dejliglama framework [https://www.gdprwp.com/](https://www.gdprwp.com/)
 * Fernando Claussen plugin on [GitHub](https://github.com/trewknowledge/gdpr) and [repository](https://wordpress.org/plugins/gdpr/)
+* Van Ons plugin in the [repository](https://wordpress.org/plugins/wp-gdpr-compliance/)
+* AppSaloon plugin on [GitHub](https://github.com/WP-GDPR/wp-gdpr-core/) and [repository](https://wordpress.org/plugins/wp-gdpr-core/)
 
 ## Further reading
 * [https://www.codeinwp.com/blog/complete-wordpress-gdpr-guide/](https://www.codeinwp.com/blog/complete-wordpress-gdpr-guide/)
