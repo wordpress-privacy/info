@@ -2,7 +2,7 @@
 
 We cannot make WordPress sites compliant, but we can provide site administrators and users with the tools they need to help them bring their sites into healthy compliance.
 
-This project works towards the 25 May 2018 deadline, and the constraints and expectations, of GDPR. It does, however, take a wider generalist view of online privacy in general, and considers privacy and data protection issues outside GDPR's explicit scope.
+This project works towards the 25 May 2018 deadline, and the constraints and expectations, of GDPR. It does, however, take a wider view of online privacy in general, and considers privacy and data protection issues outside GDPR's explicit scope.
 
 This project has four goals.
 
@@ -24,11 +24,8 @@ However, having specialized tools will enable plugins to hook into the performed
 
 There will be two main tools:
 
-   * A tool to export all personal data stored on the site (by email address or user login), see #43438, #43440, #43547, #43547.
-   * A tool to delete all personal data and anonymize published/public content (like posts, comments, etc.), see #43637.
-
-The requests to see, download and delete/anonymize private data have to be with a confirmation (double opt-in) to avoid misuse. One possible solution would be to send a token by email when a user or a commenter has requested access to or deletion/anonymization of their private data. Then they will have to submit that token as a confirmation of their request.
-(TBD: shall we make this process automatic or should a site owner perform the action upon receiving the confirmed request?)
+   * A tool to export all personal data stored on the site (by email address or user login), see [#43438](https://core.trac.wordpress.org/ticket/43438), [#43440](https://core.trac.wordpress.org/ticket/43440), [#43546](https://core.trac.wordpress.org/ticket/43546), [#43547](https://core.trac.wordpress.org/ticket/43547).
+   * A tool to delete all personal data and anonymize published/public content (like posts, comments, etc.), see [#43637](https://core.trac.wordpress.org/ticket/43637).
 
    * For commenters. The stored private data is emails and IP addresses, the rest is public.
       + Dialog for requesting to see and download their private data.
@@ -39,12 +36,10 @@ The requests to see, download and delete/anonymize private data have to be with 
    * For registered users. All of the data stored by default is already visible in the user profile (except IP addresses if they have commented on the site), and most can be edited or deleted from there.
       + Button for downloading their private data, including IP addresses if they have commented. Again, should that also contain the public data?
       + Button for requesting deletion/anonymization of their account.
-      
-      There are several plugins that are implementing similar tools. 
 
-These tools will require a confirmation of the email of the person that requests an action, see #43443 (first version is already committed). When a confirmed request is received, the site owner will perform the action.
+The requests to see, download and delete/anonymize private data have to be with a confirmation (double opt-in) to avoid misuse. One  solution is to send a token by email when a user or a commenter has requested access to or deletion/anonymization of their private data (see [#43443](https://core.trac.wordpress.org/ticket/43443) - the first version is already committed). The requester will have to submit that token as a confirmation of their request before the site owner can perform the action. While this could be done automatically, deleting and anonymizing will be non-reversible, and could also be subject to abuse. In this case it’s better if the site owners perform the actions themselves, after additional confirmation if required.
 
-This could be done automatically. However deleting and anonymizing will be non-reversible. In this case it’s better if the site owners perform the actions themselves, after additional confirmation if required.
+There are several plugins that are implementing similar tools. 
 
 ### Data collection and retention in core by default
 
@@ -77,13 +72,15 @@ Generating a privacy notice is not an automatic task: the tools/functionality wo
 
 This area of work is examining the current plugin developer guidelines as they pertain to privacy and data protection.
 
-It will look at legal requirements ahead of GDPR, for example developing to the Privacy by Design principles, and also at general plugin ecosystem issues, such as not being allowed to say that a privacy plugin will make a site "compliant".
+It will look at legal requirements ahead of GDPR, for example developing to the Privacy by Design principles, and also at general plugin ecosystem issues, such as not being allowed to say that a legally-focused plugin will make a site "compliant".
 
 ## Add documentation/help for site owners on how to use these tools.
 
 This area of work will provide guidance for site administrators, plugin developers, and everyday users on how use the tools produced by this project. It will also provide general information on privacy and data protection issues, mindful of the need to discuss general best practice principles rather than one specific legal framework.
 
 This information will reside in a new, separate, side blog, currently under construction, and similar to the [Transparency Blog](https://transparency.automattic.com/). 
+
+Please suggest areas you would like to see from the perspective of a developer, an admin, or an everyday user on the [information resources page](https://github.com/gdpr-compliance/info/blob/master/information-resources) and we will write that content for inclusion.
 
 Documentation could also be supplied under the Tools menu, inclusive of short explanations of what privacy tools are available and how to use them. It could also contain the actual tools, for example an input field for anonymizing commenters by email address.
 
