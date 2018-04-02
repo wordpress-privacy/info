@@ -12,6 +12,7 @@
 * [#43440](https://core.trac.wordpress.org/ticket/43440) - Add tools to show and export the personal data of commenters
 * [#43442](https://core.trac.wordpress.org/ticket/43442) - Add tools for anonymizing of commenters
 * [#43443](https://core.trac.wordpress.org/ticket/43443) - Add a method for confirmation of requests for deleting or anonymizing of personal data
+* [#43473](https://core.trac.wordpress.org/ticket/43473) - Add default text for a privacy policy
 * [#43481](https://core.trac.wordpress.org/ticket/43481) - Privacy policy tools - Admin page UI
 * [#43491](https://core.trac.wordpress.org/ticket/43491) - Automatically create a Privacy Policy page when installing WordPress
 * [#43492](https://core.trac.wordpress.org/ticket/43492) - Core Telemetry and Updates
