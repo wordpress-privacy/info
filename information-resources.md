@@ -6,7 +6,7 @@ This information will be located on its own site (currently a construction zone.
 
 This site will also host resources and tools, or link to them elsewhere. Exact arrangement to be determined once they are ready.
 
-##Main areas
+## Main areas
 
 * Information for users
  + Your individual rights
@@ -31,7 +31,7 @@ This site will also host resources and tools, or link to them elsewhere. Exact a
 ## Tools
 
 
-##Glossary
+## Glossary
 
 * Personal data
 * Sensitive personal data
