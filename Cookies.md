@@ -198,3 +198,148 @@ Google Analytics - [https://tools.google.com/dlpage/gaoptout](https://tools.goog
 
 It’s important to note that restricting or [disabling](https://www.youtube.com/watch?v=7HrnWC8zBcE) the use of cookies can limit the functionality of sites, or prevent them from working correctly at all.
 
+
+## Self-hosted WordPress.org site
+
+Self-hosted WordPress.org sites also use cookies, in core there is a authentication cookie. But also WordPress plugins and themes can set/use cookies, how can we help WordPress users to identify these?
+
+<table>
+	<tr>
+		<td>Constant</td>
+		<td>Cookie</td>
+		<td>Duration</td>
+		<td>Purpose</td>
+		<td>Logged in Users Only?</td>
+		<td>Links</td>
+	</tr>
+	<tr>
+		<td>USER_COOKIE</td>
+		<td>'wordpressuser_' . COOKIEHASH</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>https://github.com/WordPress/WordPress/blob/4.9/wp-includes/default-constants.php#L212-L216</td>
+	</tr>
+	<tr>
+		<td>PASS_COOKIE</td>
+		<td>'wordpresspass_' . COOKIEHASH</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>https://github.com/WordPress/WordPress/blob/4.9/wp-includes/default-constants.php#L218-L222</td>
+	</tr>
+	<tr>
+		<td>AUTH_COOKIE</td>
+		<td>'wordpress_' . COOKIEHASH</td>
+		<td>2 days</td>
+		<td></td>
+		<td>Yes</td>
+		<td>https://github.com/WordPress/WordPress/blob/4.9/wp-includes/default-constants.php#L224-L229, https://github.com/WordPress/WordPress/blob/4.9/wp-includes/pluggable.php#L790-L926</td>
+	</tr>
+	<tr>
+		<td>SECURE_AUTH_COOKIE</td>
+		<td>'wordpress_sec_' . COOKIEHASH</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>https://github.com/WordPress/WordPress/blob/4.9/wp-includes/default-constants.php#L230-L234, https://github.com/WordPress/WordPress/blob/4.9/wp-includes/pluggable.php#L790-L926</td>
+	</tr>
+	<tr>
+		<td>LOGGED_IN_COOKIE</td>
+		<td>'wordpress_logged_in_' . COOKIEHASH</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>https://github.com/WordPress/WordPress/blob/4.9/wp-includes/default-constants.php#L236-L240</td>
+	</tr>
+	<tr>
+		<td>TEST_COOKIE</td>
+		<td>'wordpress_test_cookie'</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>https://github.com/WordPress/WordPress/blob/4.9/wp-includes/default-constants.php#L242-L246</td>
+	</tr>
+</table>
+
+### Ideas
+
+#### User interface
+
+In the [rewritten GDPR plugin](https://github.com/trewknowledge/GDPR/blob/rewrite/gdpr.php) by [Trew Knowledge](https://trewknowledge.com) and @fclaussen WordPress administrators can manually register the cookies used on their site to display a Privacy Policy with all the used cookies.
+
+#### Cookies API
+
+There was also a suggestion by @remcotolsma for a WordPres Cookies API so WordPress plugin and theme developers can register the cookies they set/use. This should work in combination with a user interface like the one in the [rewritten GDPR plugin](https://github.com/trewknowledge/GDPR/blob/rewrite/gdpr.php).
+
+```php
+wp_register_cookies( 'wordpress', array(
+    'label'   => __( 'WordPress' ),
+    'cookies' => array(
+        'wordpress_*'     => array(
+            'label'       => __( 'WordPress Authentication Cookie' ),
+            'description' => __( 'This cookie is used for WordPress user authentication.' ),
+            'category'    => 'required',
+            'expiration'  => 2 * DAY_IN_SECONDS,
+        ),
+) );
+
+wp_register_cookies( 'woocommerce', array(
+    'label'   => __( 'WooCommerce', 'woocommerce' ),
+    'url'     => __( 'https://github.com/woocommerce/woocommerce/blob/3.3.3/includes/class-wc-cart-session.php#L203-L218', 'woocommerce' ),
+    'cookies' => array(
+        'woocommerce_cart_hash'     => array(
+            'label'       => __( 'WooCommerce Cart Hash', 'woocommerce' ),
+            'description' => __( 'This cookie is used to verify the visitors shopping cart.', 'woocommerce' ),
+            'category'    => 'required',
+            'expiration'  => HOUR_IN_SECONDS,
+        ),
+        'woocommerce_items_in_cart' => array(
+            'label'       => __( 'WooCommerce Number Items in Cart', 'woocommerce' ),
+            'description' => __( 'This cookie is used to keep track of the number of items in the visitors shopping cart.', 'woocommerce' ),
+            'category'    => 'required',
+            'expiration'  => HOUR_IN_SECONDS,
+        ),
+        'wp_woocommerce_session_*'  => array(
+            'label'       => __( 'WooCommerce Session ID', 'woocommerce' ),
+            'description' => __( 'This cookie is used to keep track of visitors session.', 'woocommerce' ),
+            'category'    => 'required',
+            'expiration'  => 48 * HOUR_IN_SECONDS,
+        ),
+    ),
+) );
+
+wp_register_cookies( 'google-analytics-for-wordpress', array(
+    'label'   => __( 'MonsterInsights - Google Analytics', 'google-analytics-for-wordpress' ),
+    'url'     => __( 'https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage', )
+    'cookies' => array(
+        '_ga'  => array(
+            'label'       => __( '_ga', 'google-analytics-for-wordpress' ),
+            'description' => __( 'Used to distinguish users.', 'google-analytics-for-wordpress' ),
+            'category'    => 'analytics',
+            'expiration'  => 2 * YEAR_IN_SECONDS,
+        ),
+        '_gid' => array(
+            'label'       => __( '_gid', 'google-analytics-for-wordpress' ),
+            'description' => __( 'Used to distinguish users.', 'google-analytics-for-wordpress' ),
+            'category'    => 'analytics',
+            'expiration'  => 24 * HOUR_IN_SECONDS,
+        ),
+        '_gat' => array(
+            'label'       => __( '_gat', 'google-analytics-for-wordpress' ),
+            'description' => __( 'Used to throttle request rate.', 'google-analytics-for-wordpress' ),
+            'category'    => 'analytics',
+            'expiration'  => array(
+                'from' => 30,
+                'to'   => YEAR_IN_SECONDS,
+            ),
+        ),
+        '_gac_*' => array(
+            'label'       => __( '_gac_<property-id>', 'google-analytics-for-wordpress' ),
+            'description' => __( 'Contains campaign related information for the user.', 'google-analytics-for-wordpress' ),
+            'category'    => 'analytics',
+            'expiration'  => 90 * DAY_IN_SECONDS,
+        ),
+    ),
+) );
+```
