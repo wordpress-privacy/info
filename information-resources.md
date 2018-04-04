@@ -1,4 +1,4 @@
-#Information resources
+# Information resources
 
 Targeted information for everyday site users, site administators, and developers to reference on their compliancec journeys.
 
@@ -6,13 +6,19 @@ This information will be located on its own site (currently a construction zone.
 
 This site will also host resources and tools, or link to them elsewhere. Exact arrangement to be determined once they are ready.
 
+Let's aim for seven pages of content per area.
+
 ## Main areas
 
 * Information for users
+ + General overview of WP and privacy (can cannibalise from existing content)
  + Your individual rights
  + Your privacy options
  + Cookie choices (eg. link to http://www.youronlinechoices.com)
- +
+ + WP.com and privacy (just a link to https://automattic.com/privacy/)
+ + Something
+ + Something
+ + Something
  
 * Information for site administrators
  + Privacy notices: what information is required for your site users (in progress, HB - also WC London talk 15/04)
@@ -27,7 +33,11 @@ This site will also host resources and tools, or link to them elsewhere. Exact a
  + Developer guidelines (done, in draft: needs to be dovetailed with plugin developer guidelines work - HB) 
  + Conducting a Privacy Impact Assessment (done, in draft - HB)
  + Privacy notices: what info is required about your plugin/theme (in progresss, as above  - HB)
-
+ + Consent and Legal Basis (HB to do)
+ + Privacy by Design (HB to cannibalise WC Northeast presentation)
+ + International data transfers (HB to do end of April)
+ + Cookies and telemetry (HB to do - NB ePD not finalised)
+ 
 ## Tools
 
 
@@ -38,9 +48,4 @@ This site will also host resources and tools, or link to them elsewhere. Exact a
 * Data controller
 * Data processor
 * Personally Identifiable Information (American term, different from PD)
-*
-*
-*
-*
-*
-*
+* Subject access request
