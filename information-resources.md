@@ -10,26 +10,25 @@ Let's aim for seven pages of content per area.
 
 ## Main areas
 
-* Information for users
+### Information for users
  + General overview of WP and privacy (can cannibalise from existing content)
  + Your individual rights
  + Your privacy options
  + Cookie choices (eg. link to http://www.youronlinechoices.com)
  + WP.com and privacy (just a link to https://automattic.com/privacy/)
- + Something
- + Something
+ + What do do if you're concerned about a site
  + Something
  
-* Information for site administrators
+### Information for site administrators
  + Privacy notices: what information is required for your site users (in progress, HB - also WC London talk 15/04)
  + Analytics and tracking (best practices) (HB will do at the end of April ahead of 26 May WC Belfast talk)
  + Site security (best practices) (please clarify what is needed here? - HB)
  + Your users rights, how to honor them (data deletion, access requests) (In progress - HB)
  + Cookies (HB will do later half of month - NB ePD not finalised)
- + Your web host and privacy (please clarify what is needed here? -HB)
+ + Your web host and privacy (please clarify what is needed here? if not, could duplicate PIA info -HB)
  + Data processing agreements (PS)
  
-* Information for developers
+### Information for developers
  + Developer guidelines (done, in draft: needs to be dovetailed with plugin developer guidelines work - HB) 
  + Conducting a Privacy Impact Assessment (done, in draft - HB)
  + Privacy notices: what info is required about your plugin/theme (in progresss, as above  - HB)
