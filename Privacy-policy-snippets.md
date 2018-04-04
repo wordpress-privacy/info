@@ -14,7 +14,7 @@ at all (e.g. visitors)
 
 ### Comments Left by All Users
 
-* If you are logged in to the site and elect to leave a comment on a post, in addition to the comment text we also collect your IP Address and your User Agent.
+* If you elect to leave a comment on a post, in addition to the comment text you provide we also collect your IP Address and your User Agent.
 * Your comment text, your name, email address, website URL, IP Address and User Agent are accessible by administrators on our site.
 * A hash of your email address is provided to the Gravatar service to see if a profile picture of you is available for display. The Gravatar service privacy policy is available here: https://automattic.com/privacy/ Prior to approval of your comment, your profile picture is only visible to administrators. After approval of your comment, your profile picture is visible to the public in the context of your comment.
 * Following approval of your comment, your comment text, your name, and website URL (if provided) are visible to the public.
