@@ -69,7 +69,7 @@ Copy and paste-able snippets that describe how core collects, manages and shares
   * TED https://www.ted.com/about/our-organization/our-policies-terms/privacy-policy
   * Tumblr https://www.tumblr.com/policy/en/privacy
   * Twitter https://twitter.com/en/privacy
-  * VideoPress http://videopress.org/privacy-policy/
+  * VideoPress https://automattic.com/privacy/
   * Vimeo https://vimeo.com/privacy
   * Vine https://vine.co/privacy
   * WordPress Plugin Directory https://wordpress.org/about/privacy/
