@@ -1,5 +1,8 @@
 # Trac Tickets
 
+This link is the best way to view active GDPR tickets in Trac:
+https://core.trac.wordpress.org/query?status=!closed&keywords=~gdpr
+
 ## Core
 * [#1767](https://meta.trac.wordpress.org/ticket/1767) - Inform users upon registration, that the account can't be deleted or renamed
 * [#41316](https://core.trac.wordpress.org/ticket/41316) - Introduce "Try Gutenberg" callout
