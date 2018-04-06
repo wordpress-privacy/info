@@ -80,7 +80,7 @@ This area of work will provide guidance for site administrators, plugin develope
 
 This information will reside in a new, separate, side blog, currently under construction, and similar to the [Transparency Blog](https://transparency.automattic.com/). 
 
-Please suggest areas you would like to see from the perspective of a developer, an admin, or an everyday user on the [information resources page](https://github.com/gdpr-compliance/info/blob/master/information-resources) and we will write that content for inclusion.
+Please suggest areas you would like to see from the perspective of a developer, an admin, or an everyday user on the [information resources page](https://github.com/gdpr-compliance/info/blob/master/information-resources.md) and we will write that content for inclusion.
 
 Documentation could also be supplied under the Tools menu, inclusive of short explanations of what privacy tools are available and how to use them. It could also contain the actual tools, for example an input field for anonymizing commenters by email address.
 
