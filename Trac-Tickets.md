@@ -28,6 +28,7 @@ https://core.trac.wordpress.org/query?status=!closed&keywords=~gdpr
 * [#43620](https://core.trac.wordpress.org/ticket/43620) - Privacy Policy page design
 * [#43631](https://core.trac.wordpress.org/ticket/43631) - Contents of About page hosted on third party server
 * [#43637](https://core.trac.wordpress.org/ticket/43637) - Add filters and ajax support for personal data erasure
+* [#43715](https://core.trac.wordpress.org/ticket/43715) - Popup notification for Privacy Policy page
 
 ## Meta
 * [#1767](https://meta.trac.wordpress.org/ticket/1767) - Inform users upon registration, that the account can't be deleted or renamed
