@@ -9,16 +9,18 @@ The following goals are identified:
    * To anonymise/delete personal data
    * To show/export personal data (for transfer)
    * Add notices for both registered users and commenters on what data is collected in core by default, and why.
-  
+
 1. Setup a privacy centre to hold GDPR information for site users, for site administrators, and developers.
 
    * For site users and administrators: What is collected, how long, why, etc
    * For developers: How to use the core tools
-   
+
 ## Roadmap
 The roadmap can be found in [this document](./Roadmap.md).
 ## Knowledge Base
 See the separate document for [the knowledge base](./KB.md).
+## Privacy Policy Snippets
+See the separate document for [cut and paste-able snippets for a site's privacy policy](./Privacy-policy-snippets.md).
 ## Cookies
 See the separate document [about Cookies](./Cookies.md) created by @pento and @clickysteve.
 ## Synched info
@@ -27,4 +29,3 @@ See the separate document for the [synched info](./Synched-info.md) created by @
 A separate document is created with [useful links](./Useful-links.md).
 ## Trac Tickets
 We could keep a list updated with [Trac tickets](./Trac-Tickets.md).
-
