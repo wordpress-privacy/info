@@ -12,11 +12,17 @@ How we announce this work to the world, and what we're doing to bring awareness
 ## External blog posts
 
 - Post for WP Tavern - HB
+- [WP Tavern - #GDPR-Compliance team formation post](https://wptavern.com/new-team-forms-to-facilitate-gdpr-compliance-in-wordpress-core)
+- [WP Weekley ep. 298 with Heather Burns](https://wptavern.com/wpweekly-episode-298-gdpr-user-privacy-and-more-with-heather-burns)
+- [GDPR for WP - Project going into WP Core](https://www.gdprwp.com/gdpr-going-into-wordpress-core/)
+- [WP Tavern - GDPR for WP momentum post](https://wptavern.com/gdpr-for-wordpress-project-gains-momentum-proposal-receives-positive-response-from-developer-community)
+- [WP Tavern - GDPR for WP launch post](https://wptavern.com/gdpr-for-wordpress-project-seeks-to-provide-a-standard-for-plugin-compliance)
 
 ## Podcasts and videos
 
 - Leo on [WP Watercooler](https://www.wpwatercooler.com/video/ep269-gdpr-wordpress-what-you-need-to-know/)
 - Tavern podcast before compliance deadline?
+- [WP Porto Meetup interview with @dejliglama](https://dejliglama.wordpress.com/2018/02/22/meetup-porto-interview-about-gdpr-for-wp/)
 
 ## WordCamps
 
