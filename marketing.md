@@ -21,8 +21,9 @@ How we announce this work to the world, and what we're doing to bring awareness
 ## Podcasts and videos
 
 - Leo on [WP Watercooler](https://www.wpwatercooler.com/video/ep269-gdpr-wordpress-what-you-need-to-know/)
-- Tavern podcast before compliance deadline?
+- Tavern podcast before compliance deadline- possibly 16 May
 - [WP Porto Meetup interview with @dejliglama](https://dejliglama.wordpress.com/2018/02/22/meetup-porto-interview-about-gdpr-for-wp/)
+- WP Campus podcast - Heather tbc
 
 ## WordCamps
 
