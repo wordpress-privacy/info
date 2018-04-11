@@ -2,7 +2,7 @@
 
 Targeted information for everyday site users, site administators, and developers to reference on their compliancec journeys.
 
-This information will be located on its own site (currently a construction zone.)
+This information will be located on its own site (currently a construction zone.) (https://privacy.blog/)
 
 This site will also host resources and tools, or link to them elsewhere. Exact arrangement to be determined once they are ready.
 
