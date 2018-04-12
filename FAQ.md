@@ -4,8 +4,8 @@
 
 You want to help the team in getting ready for GDPR? Great! Some places to start:
 * Check the roadmap on [https://github.com/gdpr-compliance/info/blob/master/Roadmap.md](https://github.com/gdpr-compliance/info/blob/master/Roadmap.md)
-* Look at the Trac ticket on [https://core.trac.wordpress.org/query?status=!closed&keywords=~gdpr](https://core.trac.wordpress.org/query?status=!closed&keywords=~gdpr) and see where you can help with patching or give your comments
-* Help update information on our (temporary) GitHub repository on [https://github.com/gdpr-compliance/info](https://github.com/gdpr-compliance/info)
+* Look at the Trac tickets on [https://core.trac.wordpress.org/query?status=!closed&keywords=~gdpr](https://core.trac.wordpress.org/query?status=!closed&keywords=~gdpr) and see where you can help with patching or give your comments.
+* Help update information on our (temporary) GitHub repository on [https://github.com/gdpr-compliance/info](https://github.com/gdpr-compliance/info). Just propose your changes and somebody will evaluate and add them.
 * And last but not least, let the world know! The more you tweet, post or share, the more people that can join and help us bring WordPress to a correct GDPR level.
 
 ## What personal information available for the user in that 3rd party service should we mention on the site's GDPR Privacy Notice?
