@@ -14,6 +14,7 @@
 * Fernando Claussen plugin on [GitHub](https://github.com/trewknowledge/gdpr) and [repository](https://wordpress.org/plugins/gdpr/)
 * Van Ons plugin in the [repository](https://wordpress.org/plugins/wp-gdpr-compliance/)
 * AppSaloon plugin on [GitHub](https://github.com/WP-GDPR/wp-gdpr-core/) and [repository](https://wordpress.org/plugins/wp-gdpr-core/)
+* OpenGDPR - [https://www.opengdpr.org/](https://www.opengdpr.org/)
 
 ## Further reading
 * [https://www.codeinwp.com/blog/complete-wordpress-gdpr-guide/](https://www.codeinwp.com/blog/complete-wordpress-gdpr-guide/)
