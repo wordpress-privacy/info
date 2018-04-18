@@ -4,7 +4,7 @@ How we announce this work to the world, and what we're doing to bring awareness
 
 ## Internal blog posts
 
-- Make.core post for w/c 9 April - HB/AO
+- [Make.core post for w/c 9 April](https://wordpress.org/news/2018/04/gdpr-compliance-tools-in-wordpress/) - Andrew Ozz
 - Make.core post for w/c 23 April
 - Make.core post for w/c 7 May
 - Make.core post for w/c 21 May (compliance week)
