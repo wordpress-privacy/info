@@ -5,7 +5,7 @@ https://core.trac.wordpress.org/query?status=!closed&keywords=~gdpr
 
 ## Core
 | Ticket | Milestone | Summary | Owner |
-| ------ | --------- | ------- | ----- |
+| ------ | :---------: | ------- | ----- |
 | [#41316](https://core.trac.wordpress.org/ticket/41316) | | Introduce "Try Gutenberg" callout | |
 | [#43175](https://core.trac.wordpress.org/ticket/43175) | | GDPR Pseudonymisation | |
 | [#43389](https://core.trac.wordpress.org/ticket/43389) | [CLOSED] | Add a privacy policy page setting to options-reading.php | |
