@@ -1,45 +1,8 @@
 # Trac Tickets
 
-This link is the best way to view active GDPR tickets in Trac:
-https://core.trac.wordpress.org/query?status=!closed&keywords=~gdpr
-
 ## Core
-| Ticket | Milestone | Summary | Owner |
-| ------ | :---------: | ------- | ----- |
-| [#41316](https://core.trac.wordpress.org/ticket/41316) | | Introduce "Try Gutenberg" callout | |
-| [#43175](https://core.trac.wordpress.org/ticket/43175) | | GDPR Pseudonymisation | |
-| [#43389](https://core.trac.wordpress.org/ticket/43389) | [CLOSED] | Add a privacy policy page setting to options-reading.php | |
-| [#43435](https://core.trac.wordpress.org/ticket/43435) | 4.9.6 | Add settings screen for creating a privacy policy | idea15 |
-| [#43436](https://core.trac.wordpress.org/ticket/43436) | 4.9.6 | Add opt-in for commenter cookies | idea15 |
-| [#43437](https://core.trac.wordpress.org/ticket/43437) | | Add way for registered users to request deletion or anonymization of their private data | |
-| [#43438](https://core.trac.wordpress.org/ticket/43438) | | Export registered user's private data on request | |
-| [#43440](https://core.trac.wordpress.org/ticket/43440) | 4.9.6 | Add tools to show and export the personal data of commenters | azaozz |
-| [#43442](https://core.trac.wordpress.org/ticket/43442) | 4.9.6 | Add tools for anonymizing of commenters | allendav |
-| [#43443](https://core.trac.wordpress.org/ticket/43443) | | Add a method for confirmation of requests for deleting or anonymizing of personal data | mikejolley |
-| [#43473](https://core.trac.wordpress.org/ticket/43473) | 4.9.6 | Add default text for a privacy policy | idea15 |
-| [#43481](https://core.trac.wordpress.org/ticket/43481) | | Privacy policy tools - Admin page UI | |
-| [#43491](https://core.trac.wordpress.org/ticket/43491) |[CLOSED] | Automatically create a Privacy Policy page when installing WordPress | |
-| [#43492](https://core.trac.wordpress.org/ticket/43492) | 4.9.6 | Core Telemetry and Updates | |
-| [#43545](https://core.trac.wordpress.org/ticket/43545) | | Helper functions: Anonymizing data in a standardized way | azaozz |
-| [#43546](https://core.trac.wordpress.org/ticket/43546) | 4.9.6 | Add to the privacy tools UX a means to export personal data by username or email address | allendav |
-| [#43547](https://core.trac.wordpress.org/ticket/43547) | 4.9.6 | Add personal data from usermeta/userdata to personal data export | tz-media |
-| [#43549](https://core.trac.wordpress.org/ticket/43549) | | Add a privacy policy page setting/selector to the customizer | |
-| [#43551](https://core.trac.wordpress.org/ticket/43551) | 4.9.6 | Add a means to package personal data into a file | allendav |
-| [#43588](https://core.trac.wordpress.org/ticket/43588) | | Anonymize commenter IP address once a comment is no longer pending | |
-| [#43602](https://core.trac.wordpress.org/ticket/43602) | 4.9.6 | Add to the privacy tools UX a means to erase personal data by username or email address | allendav |
-| [#43620](https://core.trac.wordpress.org/ticket/43620) | 4.9.6 | Privacy Policy page design | xkon |
-| [#43631](https://core.trac.wordpress.org/ticket/43631) | | Contents of About page hosted on third party server | |
-| [#43637](https://core.trac.wordpress.org/ticket/43637) | 4.9.6 | Add filters and ajax support for personal data erasure | allendav |
-| [#43713](https://core.trac.wordpress.org/ticket/43713) | | Add a UI to allow administrators to disable individual embeds / oembeds | |
-| [#43715](https://core.trac.wordpress.org/ticket/43715) | 4.9.6 | Popup notification for Privacy Policy page | xkon |
-| [#43721](https://core.trac.wordpress.org/ticket/43721) | | Adding links to imprint and privacy policy pages on WP login screens | |
-| [#43738](https://core.trac.wordpress.org/ticket/43738) | | Make the GDPR Export/Delete functionality available in network-wide for super admins | |
-| [#43750](https://core.trac.wordpress.org/ticket/43750) | | Establish a standard means of core reading privacy declarations from plugins’ readme.txt | |
-| [#43767](https://core.trac.wordpress.org/ticket/43767) | | Auto Delete Users after a period of time | |
-| [#43797](https://core.trac.wordpress.org/ticket/43797) | | Consent Logging | |
-| [#43799](https://core.trac.wordpress.org/ticket/43799) | | Add a UI and functionality to deactivate gravatar completely (for single site as well as network-wide) | |
-| [#43809](https://core.trac.wordpress.org/ticket/43809) | 4.9.6 | Licence & Policy notice during installation | tz-media |
-| [#43811](https://core.trac.wordpress.org/ticket/43811) | | Licence & Policy notice during installation | xkon |
+Please use this link to view active GDPR tickets in Core:
+https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~gdpr&col=id&col=summary&col=keywords&col=owner&col=milestone&order=milestone
 
 ## Meta
 * [#1767](https://meta.trac.wordpress.org/ticket/1767) - Inform users upon registration, that the account can't be deleted or renamed
