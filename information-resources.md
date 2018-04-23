@@ -27,6 +27,7 @@ Let's aim for seven pages of content per area.
  + Cookies (HB will do later half of month - NB ePD not finalised)
  + Your web host and privacy (please clarify what is needed here? if not, could duplicate PIA info -HB)
  + Data processing agreements (PS)
+ + Privacy Shield
  
 ### Information for developers
  + Developer guidelines (done, in draft: needs to be dovetailed with plugin developer guidelines work - HB) 
@@ -48,3 +49,14 @@ Let's aim for seven pages of content per area.
 * Data processor
 * Personally Identifiable Information (American term, different from PD)
 * Subject access request
+* DPO
+* PBD
+* PIA/DPIA
+* Explicit consent
+* Implicit consent
+* Extraterritoriality
+* Data breach
+* Anonymisation
+* Pseudonymisation
+* Lead country of establishment
+* Legitimate interest
