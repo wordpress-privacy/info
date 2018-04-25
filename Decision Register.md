@@ -1,0 +1,11 @@
+| Request | Comments | Decision | Status |
+| ------- | -------- | -------- | ------ |
+| Are WP posts "personal data" (keeping in mind that they may be authored by several people)
+| It depends. One of the earliest pieces of case law on European data protection law, from the 1990s, was about gossip on a church web site which was ruled to be personal data which violated someone's privacy even though maybe ten people saw the page and five of those were the legal team
+| 
+| Open |
+| Can WP registered users be considered "controllers" of the data they control. For example all admins can control all aspects of a site. All editors can edit any content, all authors can edit their own posts and comments. Are admins, editors and authors "controllers" in GDPR terms?
+| That would depend entirely on user access levels. Take the recent Carphone Warehouse breach, where 30-odd people were given Admin access to everything from employees' HR information to customers' credit card numbers. Most of them did not need to be admins and certainly should not have been.
+So the user role is less important than what data they access and what they do with it.
+| 
+| Open |
