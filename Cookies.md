@@ -6,15 +6,15 @@ Cookies are small pieces of data, contained within text files, that are stored o
 
 Below the different categories of cookies set by WordPress.org are outlined, with specific examples detailed in the tables that follow. This includes their name and purpose. Certain cookies are only set for logged in visitors, whereas others are set for any visitors, and these are marked below accordingly. Where a cookie only applies to specific subdomains, they are included under the relevant header.
 
-**Strictly Necessary: **These are the cookies that are essential for WordPress.org to perform basic functions. These include those required to allow registered users to authenticate and perform account related functions.
+**Strictly Necessary:** These are the cookies that are essential for WordPress.org to perform basic functions. These include those required to allow registered users to authenticate and perform account related functions.
 
-**Functionality: **These cookies are used to store preferences set by users such as account name, language, and location. 
+**Functionality:** These cookies are used to store preferences set by users such as account name, language, and location. 
 
-**Performance: **Performance cookies collect information on how users interact with websites hosted on WordPress.org, including what pages are visited most, as well as other analytical data. These details are only used to improve how the website functions.
+**Performance:** Performance cookies collect information on how users interact with websites hosted on WordPress.org, including what pages are visited most, as well as other analytical data. These details are only used to improve how the website functions.
 
-**Tracking: **These are set by trusted third party networks (e.g. Google Analytics) to track details such as the number of unique visitors, and pageviews to help improve the user experience.
+**Tracking:** These are set by trusted third party networks (e.g. Google Analytics) to track details such as the number of unique visitors, and pageviews to help improve the user experience.
 
-**Third Party/Embedded Content: **WordPress.org makes use of different third party applications and services to enhance the experience of website visitors. These include social media platforms such as Facebook and Twitter (through the use of sharing buttons), or embedded content from Youtube and Vimeo. As a result, cookies may be set by these third parties, and used by them to track your online activity. We have no direct control over the information that is collected by these cookies.
+**Third Party/Embedded Content:** WordPress.org makes use of different third party applications and services to enhance the experience of website visitors. These include social media platforms such as Facebook and Twitter (through the use of sharing buttons), or embedded content from Youtube and Vimeo. As a result, cookies may be set by these third parties, and used by them to track your online activity. We have no direct control over the information that is collected by these cookies.
 
 ### WordPress.org
 
