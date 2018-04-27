@@ -11,6 +11,18 @@ Copy and paste-able snippets that describe how core collects, manages and shares
 * Role: A logged in user also has a role, e.g. Contributor, Author, Editor, etc. Each role has a prescribed set of capabilities - e.g. some roles can delete comments but others cannot.
 * User Agent: A browser’s user agent is a line of text that usually includes which browser you are using, its version, and your operating system and its version.
 
+## Cookies
+
+* If you are logged out and leave a comment on this site you may opt-in to saving your name, email address and website. If you opt-in, three cookies will be created - one for your name, one for your email address and one for your website. These cookies are unique to this site and will persist for 1 year. `(comment_author_{site}, comment_author_email_{site}, comment_author_url_{site})`
+
+* If you attempt to log in to this site, we will set a temporary cookie to determine if your browser accepts cookies at all. This cookie contains no personal data and is discarded when you close your browser. `(wordpress_test_cookie)`
+
+* If you have an account and you log in to this site, we will set up to three cookies to save your log in information in your browser. These cookies are unique to this site and include your user name and a login token for you. If you select “Remember Me” these cookies will persist for two weeks. If not, they will persist for two days. Since these cookies save your user name and login information, if you log into this site using a public computer, it is important to log out before leaving the computer to prevent unauthorized access. `(wordpress_{site}, wordpress_sec_{site}, wordpress_logged_in_{site}).`
+
+* If you have an account, if your role permits it and if you use the administration pages of this site, up to two additional cookies will be saved in your browser. These cookies both include your user ID. The first cookie contains any screen options you've selected and the second contains the timestamp of the last time you visited an administration page. They expire after 1 year. `(wp-settings-{userID}, wp-settings-time-{userID})`
+
+* If you have an account, if your role permits it and if you use the administration pages of this site to edit articles, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day. `(wp-saving-post)`
+
 ## Comments
 
 ### Comments Left by All Users
