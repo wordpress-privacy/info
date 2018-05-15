@@ -266,11 +266,11 @@ Self-hosted WordPress.org sites also use cookies, in core there is a authenticat
 
 #### User interface
 
-In the [rewritten GDPR plugin](https://github.com/trewknowledge/GDPR/blob/rewrite/gdpr.php) by [Trew Knowledge](https://trewknowledge.com) and @fclaussen WordPress administrators can manually register the cookies used on their site to display a Privacy Policy with all the used cookies.
+In the [GDPR plugin](https://github.com/trewknowledge/GDPR) by [Trew Knowledge](https://trewknowledge.com) and @fclaussen WordPress administrators can manually register the cookies used on their site to display a Privacy Policy with all the used cookies.
 
 #### Cookies API
 
-There was also a suggestion by @remcotolsma for a WordPres Cookies API so WordPress plugin and theme developers can register the cookies they set/use. This should work in combination with a user interface like the one in the [rewritten GDPR plugin](https://github.com/trewknowledge/GDPR/blob/rewrite/gdpr.php).
+There was also a suggestion by @remcotolsma for a WordPres Cookies API so WordPress plugin and theme developers can register the cookies they set/use. This should work in combination with a user interface like the one in the [Trew Knowledge GDPR plugin](https://github.com/trewknowledge/GDPR).
 
 ```php
 wp_register_cookies( 'wordpress', array(
