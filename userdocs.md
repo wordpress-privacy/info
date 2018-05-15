@@ -1,57 +1,54 @@
-# Data Privacy and your WordPress blog
+# User Privacy and your WordPress site
 
-WordPress now includes easy-to-use tools for site administrators to use to comply with better user data privacy. These tools make it easier for you to explain to your users what data you collect about them, why and how you collect it, what you do with that data and how they can request a copy or remove that information.
+Depending on the national or international privacy regulations, such as the EU's General Data Protection Regulation, which may be applicable to you, you may be required to display a privacy policy disclosing your collection and sharing of personal data. You may also be required to provide your users with the means to request a copy of the information you hold about them, or request its deletion.
 
-Based on national or international regulations (like the European Union's "General Data Protection Regulation) you may be required to have a "Privacy Policy" with disclosures explaining how your site works and what data it collects. As a result of these tools, you now have the opportunity to be more transparent about your website's practices to your users. 
+WordPress now includes simple tools for site administrators to take these steps. These tools make it easier for you to inform your users, through a transparent privacy notice, what data you collect about them, why, and how; what you do with that data, including who you share it with. They also make it easier for users to request a copy of their data or its removal. The use of these tools, whether required by law or not, will make it easier for you to protect your users' privacy.
 
-Under some privacy laws, you may also be required to have your users' "explicit consent" before collecting their personal information, especially if it involves their name, email, birthdate, phone number or IP address. While WordPress.org does not yet have some of these tools built, [there are various plugins available](https://wordpress.org/plugins/tags/gdpr/) to help in collecting consent. Other plugins, especially in the case of forms, suggest that you add a "required" consent field that says something like [_"I consent to my submitted data being collected and stored"_](https://docs.gravityforms.com/wordpress-gravity-forms-and-gdpr-compliance/
-) if this is a requirement for your website.
-
-Every website is different and will have unique requirements on what to do to stay compliant with its users. Your policy will likely change as your website evolves, and it's important to keep it up-to-date based on how you are actually operating as a site. 
-
-Further, just as new regulations (and clarity about existing ones) may continue to shift your requirements as a website, we strongly encourage you to consider that data privacy compliance is not a one-time responsibility. The best practice is to treat this new responsibility as a continuous goal, and we strongly encourage you to check these suggested guidelines and adjust your usage of these tools as needed. 
+Every website is different. No two privacy notices will be alike, just as no two site administrators will have identical compliance journeys. Additionally, new regulations, as well as adaptations of existing ones, may alter your compliance journeys. **We strongly encourage you to consider that safeguarding privacy is not a one-time responsibility.** Taking steps to secure and protect your users' data is a continuous process both online and offline. These tools can help you with parts of that process, but they are not a compliance process in and of itself. *We strongly encourage you to check the regulations and expectations applicable to you and adjust your usage of these tools as needed.*
 
 ## Privacy Settings
 
-This tool makes it easier to select and build a Privacy Policy page. A WordPress Admin can go to the mew menu page to manage Privacy settings by clicking on *Settings > Privacy*, Where the Privacy Policy page manager will be used. 
+This tool makes it easier to select and build a Privacy Policy page. It will create a dedicated page, or adapt an existing one, and provide prompts and headers to kickstart the process.
 
-While you don't necessarily need to use this tool to build a Privacy Policy, we believe it is helpful because it provides sample text to help you in describing how your WordPress site works based on the efforts of the community. We've written a description of how data is collected by using a default WordPress site and also encouraged theme and plugin developers to take advantage of the "Privacy Policy Editing Helper," which will make it easier for you to get started in disclosing to your users about how you collect and use their data.
+Site administrators can create this page by going to  *Settings > Privacy*, Where the Privacy Policy page manager will be used. 
 
+The prompts and headers provided in the tool by default are based on the expectations of Europe's GDPR as a leading privacy standard. While this gives you a start to build on, your privacy policy is not constrained by this starter text. *It is your responsibility* to write a comprehensive privacy policy, to ensure that it reflects all national and international legal requirements on privacy, and to keep your policy current and accurate. 
 
 ### Privacy Policy Editing Helper
 
-The *Editing Helper* feature is part of the new *Privacy Settings* inside WordPress. Based on WordPress core and your site's themes/plugins, the Editing Helper pulls together a set of default text that will show you all of the potential features your WordPress site might use, generating a template that you can use to build a Privacy Policy.
+The *Editing Helper* feature is part of the new *Privacy Settings* tool. Drawing information from both WordPress core and a site's themes and plugins, the Editing Helper pulls together a collected set of default texts which detail a site's data collection and sharing, generating a starter text which you can use to complete your privacy policy.
 
-While not all sites use WordPress may not enable comments on posts, nearly every site uses key features like login cookies, media uploads. Take the time read through this and understand what your site does and describe what a user should know. 
+While you do not necessarily need to use this tool to build a Privacy Policy, we believe it is helpful because it provides information on how your WordPress site collects and processes data in both core and plugins. It is important to consider these back-end uses of data. While not all sites will use all functions - for example, an administrator may choose not to enable comments on posts - nearly every site uses features such as analytics cookies, social media sharing buttons, or contact form plugins. Please add as many additional disclosures as is necessary to be fully transparent about how your site uses personal data.
 
-While this tool does give a sample policy for you to build on, It is expected that your Privacy Policy will shift from this template. It will probably not describe all the features your site uses, just the main usages that WordPress.org sites tend to collect and what how some of your themes and plugins may handle data. For example, many sites embed analytics scripts or email subscription services in ways the the Editing Helper tool isn't aware of, so the default template may not completely describe how your site might collect data about its user. If your default Privacy Policy page template does not include this, may need to add additional disclosures to describe to your users better about what your site does with their information.
+Additionally, many sites will embed third party tools, such as email subscription services, which collect data in ways the the Editing Helper tool cannot detect, so the default template may not completely describe how your site might collect data about its user. Take the time to understand how these functions collect user data, and use your policy to describe what a user should know. 
 
-In short, it is your responsibility to write a comprehensive privacy policy, to make sure it reflects all national and international legal requirements on privacy, and to keep your policy current and accurate. This tool gives you a head start on context to what data your WordPress site is probably collecting. 
-
+Theme and plugin developers are invited to learn how the Privacy Policy Editing Helper works, and to feed in the information about how your theme or plugin collects data into the privacy policy tool.
 
 ## Export Personal Data tool
-You'll find a feature to archive user data for export by clicking on _Tools > Export Personal Data_ in your WordPress dashboard. 
 
-Similar to the "Erase Personal Data tool," this tool both manages email export requests by your users as well as allows you to gather a file bundle (`.zip` format) with information about that user and what data exists about them in your WordPress site.
+WordPress now includes a feature to to archive user data for export. This is different from the _Tools > Export_ tool which creates an archive file of posts, pages, or media; the new tool exports infomration captured elsewhere. You can use this tool by clicking on _Tools > Export Personal Data_ in your WordPress dashboard. 
 
-### Please note:
-- We strongly encourage you use the email validation feature built inside the privacy tools as confirmation will help prevent spoofing by nefarious users pretending to be someone they're not.
-- While this tool's scope covers much of the scope of WordPress user data, it likely does not include information that may be collected by your site using a third party, such as an analytics provider, newsletter subscription service, ad affiliate partner or embedded media. 
-- While the tool may give you a good start in giving your users what they've requested, every site owner should understand what data they collect so they can comply with any legal requests for export or erasure.
+This tool manages email export requests by your users. Following manual approval, it allows you to generate a (`.zip` format) file containing the personal data which exists about a user within your WordPress site. 
+
+*We strongly encourage you use the email validation feature built into the export tools. This confirmation process will help safeguard against abuse, such as malicious users pretending to be someone they are not.*
+
+While this tool's scope covers much of the scope of WordPress user data, it likely does not include information that may be collected by your site using a third party, such as an analytics provider, newsletter subscription service, ad affiliate partner or embedded media. So while the tool can give you a good start in providing your users with the data they have requested, every site administrator should understand what data they collect and process outside their WordPress site.
 
 ## Erase Personal Data tool
-You'll find a feature to remove user data by clicking on _Tools > Erase Personal Data_ in your WordPress dashboard.  
 
-Similar to the "Export Personal Data tool," this tool both manages email export requests by your users as well as allows you to gather a file bundle (`.zip` format) with information about that user and what data exists about them in your WordPress site.
+Similar to the Export Personal Data tool, WordPress now includes a tool to delete a user's personal data upon verified request. You will find this feature under _Tools > Erase Personal Data_ in your WordPress dashboard.  
 
-### Please note: 
-- We strongly encourage you use the email validation feature built inside the privacy tools as confirmation will help prevent spoofing by nefarious users pretending to be someone they're not.
-- When using this tool: Erasure requests cannot be reversed after they have been confirmed. * Deleted data is deleted data.*
-- When using this tool alongside automated backups, we urge you to exercise caution when restoring your "user" data from backups. When restoring an archived copy of your site, your requests for erasure should be respected.
-- While this tool's scope covers much of the scope of WordPress user data, it likely does not include information that may be collected by your site using a third party, such as an analytics provider, newsletter subscription service, ad affiliate partner or embedded media. 
-- While the tool may give you a good start in giving your users what they've requested, every site owner should understand what data they collect so they can comply with any legal requests for export or erasure.
+As with the Export tool, the Erase Personal Data tool uses email validation to send a user's request to an administrator. The administrator must manually approve the request to remove the data in question. *We strongly encourage you use the email validation feature built into the export tool. This confirmation process will help safeguard against abuse, such as malicious users pretending to be someone they are not.*
 
+Erasure requests cannot be reversed after they have been confirmed. *Deleted data is permanently removed from the database.* It does not remove the data from backups or archive files. When using the tool alongside automated backups or archives, we advise you to exercise caution when restoring user data from backups. When restoring an archived copy of your site, your requests for erasure should be respected.
 
+As with the Export tool, while this tool's scope covers much of the scope of WordPress user data, it likely does not include information that may be collected by your site using a third party, such as an analytics provider, newsletter subscription service, ad affiliate partner or embedded media. So while the tool can give you a good start in providing your users with the data they have requested, every site administrator should understand what data they collect and process outside their WordPress site.
+
+It is also important to understand that personal data deletion requests are not absolute. A site administrator is not obliged to delete data that they may be required to keep for other legal or statutory reasons. For example, you may be required to keep sales records for a certain number of years for tax purposes. You may also wish to keep a user's records for security purposes, for example, if there is an ongoing investigation into abuse. These situations should be handled internally.
+
+## Explicit Consent (Can we take this out if we have nothing to show for it?)
+Under some privacy laws, you may also be required to have your users' explicit consent before collecting their personal data. While WordPress.org does not yet have some of these tools built, [there are various plugins available](https://wordpress.org/plugins/tags/gdpr/) to help in collecting consent. Other plugins, especially in the case of forms, suggest that you add a "required" consent field that says something like [_"I consent to my submitted data being collected and stored"_](https://docs.gravityforms.com/wordpress-gravity-forms-and-gdpr-compliance/
+) if this is a requirement for your website.
 ***
 To-do:
 Would be nice if we could add a "how-to-use" section - see Woo article here doing a good job: 
