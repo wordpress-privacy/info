@@ -59,10 +59,10 @@ In particular (as with the Export tool) it likely does not include information t
 
 *It is also important to understand that personal data deletion requests are not absolute.* A site administrator is not obliged to delete data that they may be required to keep for other legal or statutory reasons. For example, you may be required to keep sales records for a certain number of years for tax purposes. You may also wish to keep a user's records for security purposes, for example, if there is an ongoing investigation into abuse. These situations should be handled internally.
 
-## Explicit Consent 
-Under some privacy laws, you may also be required to have your users' explicit consent before collecting their personal data. Further, you may also be required to have your users' "explicit consent" before certain kinds of processing of personal data, if that processing isn't otherwise necessary for your site.
+## Consent of data collected
+Under some privacy laws, you may also be required to have your users' active, clear, and unambiguous consent before collecting their personal data. Further, you may also be required to have your users' active, clear, and unambiguous consent before certain kinds of processing of personal data, if that processing isn't otherwise necessary for your site.
 
-While WordPress.org does not yet have consent tools built, [there are various plugins available](https://wordpress.org/plugins/tags/gdpr/) to help in collecting consent to be compliant with the May 2018 GDPR compliance deadline. In addition, WordPress Core intends to add additional tools for WordPress theme and plugin developers for explicit consent management in WordPress Sites.
+While WordPress.org does not yet have consent tools built, [there are various plugins available](https://wordpress.org/plugins/tags/gdpr/) to help in collecting consent to be compliant with the May 2018 GDPR compliance deadline. In addition, WordPress Core intends to add additional tools for WordPress theme and plugin developers for consent management in WordPress Sites.
 
 Some plugins, especially in the case of forms and email subscription services, suggest that you add a "required" consent field that says something like [_"I consent to my submitted data being collected and stored"_](https://docs.gravityforms.com/wordpress-gravity-forms-and-gdpr-compliance/
 ) if this is a requirement for your website.
