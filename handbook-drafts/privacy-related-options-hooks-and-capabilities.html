@@ -1,0 +1,21 @@
+<h2>Options</h2>
+- <code>wp_page_for_privacy_policy</code> - contains the page ID of a site's privacy page
+<h2>Actions</h2>
+- <code>user_request_action_confirmed</code> - fired when a user confirms a privacy request
+- <code>wp_privacy_delete_old_export_files</code> - a scheduled action used to prune old exports from the personal data exports folder
+- <code>wp_privacy_personal_data_export_file</code> - used to create a personal data export file as part of the export flow
+- <code>wp_privacy_personal_data_export_file_created</code> - fires after a personal data export file has been created
+<h2>Filters</h2>
+- <code>user_request_action_confirmed_message</code> - allows modifying the action confirmation message displayed to the user
+- <code>wp_privacy_export_expiration</code> - controls how old export files are allowed to get, default is 3 days
+- <code>wp_privacy_personal_data_email_content</code> - allows modifying the email message send to users with their personal data export file link
+- <code>wp_privacy_personal_data_erasers</code> - supports registration of core and plugin personal data erasers - see also (link to post 37629)
+- <code>wp_privacy_personal_data_exporters</code> - supports registration of core and plugin personal data exporters - see also (link to post 37624)
+<h2>Capabilities</h2>
+Access to the privacy tools is controlled by a few new capabilities. These capabilities are:
+
+- <code>erase_others_personal_data</code> - determines if the Erase Personal Data sub-menu is available under Tools
+- <code>export_others_personal_data</code> - determines if the Export Personal Data sub-menu is available under Tools
+- <code>manage_privacy_options</code> - determines if the Privacy sub-menu is available under Settings
+
+Administrators (on non-multisite installations) have these capabilities by default.
