@@ -30,3 +30,4 @@
 * [https://pagely.com/blog/gdpr-wordpress-2018-resources/](https://pagely.com/blog/gdpr-wordpress-2018-resources/)
 * Anonymizing Code: [https://ico.org.uk/media/for-organisations/documents/1061/anonymisation-code.pdf](https://ico.org.uk/media/for-organisations/documents/1061/anonymisation-code.pdf)
 * Guide to GDPR for webmasters, developers and business owners - https://silicondales.com/whitepapers/silicon-dales-guide-gdpr/
+* [http://www.privacy-regulation.eu/](http://www.privacy-regulation.eu/)
