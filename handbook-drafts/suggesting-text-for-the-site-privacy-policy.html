@@ -1,8 +1,8 @@
 [sub of Privacy]
 
-Every plugin that collects, uses or stores user related data should add a section of suggested text to the privacy policy postbox. This is best done with<code> wp_add_privacy_policy_content( $plugin_name, $policy_text )</code>. Then the site owners will be able to add the privacy information to their site's privacy policy.
+Every plugin that collects, uses, or stores user data, or passes it to an external source or third party, should add a section of suggested text to the privacy policy postbox. This is best done with<code> wp_add_privacy_policy_content( $plugin_name, $policy_text )</code>. This will allow site administrators to pull that information into their site's privacy policy.
 
-To make this simpler for the users, the plugin that adds such text should try to arrange it in one or more of the following categories:
+To make this simpler for the users, the text should address the questions provided in the default privacy policy:
 <ul>
  	<li>What personal data we collect and why we collect it
 <ul>
@@ -26,3 +26,4 @@ To make this simpler for the users, the plugin that adds such text should try to
  	<li>Any industry regulatory disclosure requirements</li>
 </ul>
 &nbsp;
+While not all of these questions will be applicable to all plugins, we recommend taking care with the sections on data sharing. 
