@@ -2,7 +2,7 @@ The Privacy by Design (PbD) framework is used to implement privacy as a fundamen
 
 The framework was [initially developed by Dr Ann Cavoukian in Canada in the 1990s](https://www.ipc.on.ca/wp-content/uploads/Resources/7foundationalprinciples.pdf).
 
-Under GDPR, developers must demonstrate that they have followed the PbD principles in their project lifecycles. This can be documented in a Privacy Impact Assessment.
+Under GDPR, developers must demonstrate that they have followed the PbD principles in their project lifecycles. This can be documented in a [Privacy Impact Assessment](https://github.com/wordpress-privacy/info/blob/master/resources/privacy-impact-assessment.md).
 
 ## The seven PbD Principles
 
