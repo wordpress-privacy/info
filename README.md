@@ -1,31 +1,23 @@
 # Info
-This repository will hold the info gathered during the WordPress Core GDPR journey. It will be transferred to approriate other places when in a more finalised state.
-## Goals
-The following goals are identified:
-1. Identify all personal data stored by core processes.
-1. Add tools (functions,hooks,etc.) in core to facilitate compliance, and privacy in general:
 
-   * For Administrators/site owners to get an overview of what data is stored and how to use the tools
-   * To anonymise/delete personal data
-   * To show/export personal data (for transfer)
-   * Add notices for both registered users and commenters on what data is collected in core by default, and why.
+This repository will hold information resources created by the WordPress.org core-privacy team.
 
-1. Setup a privacy centre to hold GDPR information for site users, for site administrators, and developers.
+The team's office hours are held on Wednesdays at 1900 UTC in the #core-privacy channel on Making WordPress Slack.
 
-   * For site users and administrators: What is collected, how long, why, etc
-   * For developers: How to use the core tools
+Bug scrubs are held there as well on Mondays at 1600 UTC.
 
-## Roadmap
-The roadmap can be found in [this document](./Roadmap.md).
-## Knowledge Base
-See the separate document for [the knowledge base](./KB.md).
-## Privacy Policy Snippets
-See the separate document for [cut and paste-able snippets for a site's privacy policy](./Privacy-policy-snippets.md).
-## Cookies
-See the separate document [about Cookies](./Cookies.md) created by @pento and @clickysteve.
-## Synched info
-See the separate document for the [synched info](./Synched-info.md) created by @pento and @clickysteve.
-## Useful Links
-A separate document is created with [useful links](./Useful-links.md).
-## Trac Tickets
-We could keep a list updated with [Trac tickets](./Trac-Tickets.md).
+## What we do
+
+Our 2019 roadmap of work is [here](https://make.wordpress.org/core/roadmap/privacy/).
+
+We also respond to bugs, privacy concerns, and any related issues as they arise.
+
+## Need help?
+
+The core-privacy team stands ready to assist you. Please message us in the #core-privacy channel on Making WordPress Slack. 
+
+You can also add the "needs-privacy-review" keyword in your Trac tickets.
+
+## V1 GDPR
+
+All documents and resources from the V1 GDPR phase of the core-privacy team's existence (December 2017-May 2018) are archived in the [V1archive folder](https://github.com/wordpress-privacy/info/tree/master/v1archive) for reference.
